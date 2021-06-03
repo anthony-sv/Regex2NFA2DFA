@@ -1,0 +1,30 @@
+digraph "" {
+	labelloc="t";
+	label="a|b|c";
+	rankdir=LR;
+	" " [shape=plaintext];
+	" " -> q8;
+	q0 -> q1	[key=0,
+		label=a];
+	q1 -> q5	[key=0,
+		label=Ɛ];
+	q2 -> q3	[key=0,
+		label=b];
+	q3 -> q5	[key=0,
+		label=Ɛ];
+	q4 -> q0	[key=0,
+		label=Ɛ];
+	q4 -> q2	[key=0,
+		label=Ɛ];
+	q9	[peripheries=2];
+	q5 -> q9	[key=0,
+		label=Ɛ];
+	q6 -> q7	[key=0,
+		label=c];
+	q7 -> q9	[key=0,
+		label=Ɛ];
+	q8 -> q4	[key=0,
+		label=Ɛ];
+	q8 -> q6	[key=0,
+		label=Ɛ];
+}
